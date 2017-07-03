@@ -296,7 +296,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/huawei/can/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/huawei/can/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/huawei/can/proprietary/lib/libjson.so:system/lib/libjson.so \
     vendor/huawei/can/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/huawei/can/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/huawei/can/proprietary/vendor/lib/hw/gatekeeper.msm8953.so:system/vendor/lib/hw/gatekeeper.msm8953.so \
@@ -347,8 +346,71 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview_16_9.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_default_preview_16_9.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_default_video.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_default_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_default_video_16_9.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_default_video_16_9.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:system/vendor/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_zsl_preview.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_zsl_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_a3_zsl_video.so:system/vendor/lib/libchromatix_hi843s_ofilm_a3_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so:system/vendor/lib/libchromatix_imx214_zsl_preview_lc898122.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so:system/vendor/lib/libchromatix_imx214_zsl_video_lc898122.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_zsl_preview.so:system/vendor/lib/libchromatix_imx219_liteon_a3_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_zsl_video.so:system/vendor/lib/libchromatix_imx219_liteon_a3_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_zsl_preview.so:system/vendor/lib/libchromatix_imx219_sunny_a3_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_zsl_video.so:system/vendor/lib/libchromatix_imx219_sunny_a3_zsl_video.so \
+  vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_preview_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_video_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_qc2002_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_qc2002_zsl_preview_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_qc2002_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_qc2002_zsl_video_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_zsl_preview_ak7371.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_video_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_zsl_video_ak7371.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_preview_fty.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_preview.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_video.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_preview_fty.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_preview.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_video.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_preview_fty.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_preview.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_video.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_zsl_preview.so:system/vendor/lib/libchromatix_imx386_foxconn_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_zsl_video.so:system/vendor/lib/libchromatix_imx386_foxconn_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_zsl_preview.so:system/vendor/lib/libchromatix_imx386_liteon_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_zsl_video.so:system/vendor/lib/libchromatix_imx386_liteon_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_zsl_preview.so:system/vendor/lib/libchromatix_ov12870_sunny_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_zsl_video.so:system/vendor/lib/libchromatix_ov12870_sunny_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_zsl_preview_bu64297.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so:system/vendor/lib/libchromatix_ov13850_q13v06k_zsl_video_bu64297.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov2680_zsl_preview.so:system/vendor/lib/libchromatix_ov2680_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so:system/vendor/lib/libchromatix_ov4688_zsl_preview_ad5823.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so:system/vendor/lib/libchromatix_ov4688_zsl_video_ad5823.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5670_f5670bq_zsl_preview.so:system/vendor/lib/libchromatix_ov5670_f5670bq_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5670_f5670bq_zsl_video.so:system/vendor/lib/libchromatix_ov5670_f5670bq_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5670_zsl_preview.so:system/vendor/lib/libchromatix_ov5670_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5670_zsl_video.so:system/vendor/lib/libchromatix_ov5670_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5695_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov5695_zsl_video.so:system/vendor/lib/libchromatix_ov5695_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov8858_zsl_preview.so:system/vendor/lib/libchromatix_ov8858_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov8858_zsl_video.so:system/vendor/lib/libchromatix_ov8858_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_f3l8yam_zsl_video_dw9763.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b_bear.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b_bear.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_preview_dw9761b.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b_bear.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b_bear.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so:system/vendor/lib/libchromatix_s5k3m2xm_zsl_video_dw9761b.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
+    vendor/huawei/can/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_common.so:system/vendor/lib/libchromatix_hi843s_ofilm_common.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_hi843s_ofilm_cpp_ds_chromatix.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_hi843s_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_hi843s_ofilm_cpp_liveshot.so \
@@ -369,8 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_default_preview_16_9.so:system/vendor/lib/libchromatix_imx219_liteon_a3_default_preview_16_9.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_default_video.so:system/vendor/lib/libchromatix_imx219_liteon_a3_default_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_default_video_16_9.so:system/vendor/lib/libchromatix_imx219_liteon_a3_default_video_16_9.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_zsl_preview.so:system/vendor/lib/libchromatix_imx219_liteon_a3_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_a3_zsl_video.so:system/vendor/lib/libchromatix_imx219_liteon_a3_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_common.so:system/vendor/lib/libchromatix_imx219_liteon_common.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_imx219_liteon_cpp_ds_chromatix.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_liteon_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_liteon_cpp_liveshot.so \
@@ -391,8 +451,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_default_preview_16_9.so:system/vendor/lib/libchromatix_imx219_sunny_a3_default_preview_16_9.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_default_video.so:system/vendor/lib/libchromatix_imx219_sunny_a3_default_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_default_video_16_9.so:system/vendor/lib/libchromatix_imx219_sunny_a3_default_video_16_9.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_zsl_preview.so:system/vendor/lib/libchromatix_imx219_sunny_a3_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_a3_zsl_video.so:system/vendor/lib/libchromatix_imx219_sunny_a3_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_common.so:system/vendor/lib/libchromatix_imx219_sunny_common.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_imx219_sunny_cpp_ds_chromatix.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx219_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_sunny_cpp_liveshot.so \
@@ -462,9 +520,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_video.so:system/vendor/lib/libchromatix_imx298_lgit_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_video_hdr.so:system/vendor/lib/libchromatix_imx298_lgit_video_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_video_no_pdaf.so:system/vendor/lib/libchromatix_imx298_lgit_video_no_pdaf.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_preview.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_preview_fty.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_lgit_zsl_video.so:system/vendor/lib/libchromatix_imx298_lgit_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_3a_hfr_120.so:system/vendor/lib/libchromatix_imx298_liteon_3a_hfr_120.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_3a_hfr_120_video.so:system/vendor/lib/libchromatix_imx298_liteon_3a_hfr_120_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_3a_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_liteon_3a_snapshot_hdr.so \
@@ -496,9 +551,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_video.so:system/vendor/lib/libchromatix_imx298_liteon_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_video_hdr.so:system/vendor/lib/libchromatix_imx298_liteon_video_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_video_no_pdaf.so:system/vendor/lib/libchromatix_imx298_liteon_video_no_pdaf.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_preview.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_preview_fty.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_liteon_zsl_video.so:system/vendor/lib/libchromatix_imx298_liteon_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_postproc.so:system/vendor/lib/libchromatix_imx298_postproc.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_preview.so:system/vendor/lib/libchromatix_imx298_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_snapshot.so:system/vendor/lib/libchromatix_imx298_snapshot.so \
@@ -534,13 +586,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_video.so:system/vendor/lib/libchromatix_imx298_sunny_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_video_hdr.so:system/vendor/lib/libchromatix_imx298_sunny_video_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_video_no_pdaf.so:system/vendor/lib/libchromatix_imx298_sunny_video_no_pdaf.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_preview.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_preview_fty.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_preview_fty.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_sunny_zsl_video.so:system/vendor/lib/libchromatix_imx298_sunny_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_video.so:system/vendor/lib/libchromatix_imx298_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_video_hdr.so:system/vendor/lib/libchromatix_imx298_video_hdr.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_zsl_preview.so:system/vendor/lib/libchromatix_imx298_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:system/vendor/lib/libchromatix_imx298_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_4K_preview.so:system/vendor/lib/libchromatix_imx386_foxconn_4K_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_4K_video.so:system/vendor/lib/libchromatix_imx386_foxconn_4K_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_common.so:system/vendor/lib/libchromatix_imx386_foxconn_common.so \
@@ -564,8 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_foxconn_snapshot_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_video.so:system/vendor/lib/libchromatix_imx386_foxconn_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_video_hdr.so:system/vendor/lib/libchromatix_imx386_foxconn_video_hdr.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_zsl_preview.so:system/vendor/lib/libchromatix_imx386_foxconn_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_foxconn_zsl_video.so:system/vendor/lib/libchromatix_imx386_foxconn_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_4K_preview.so:system/vendor/lib/libchromatix_imx386_liteon_4K_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_4K_video.so:system/vendor/lib/libchromatix_imx386_liteon_4K_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_common.so:system/vendor/lib/libchromatix_imx386_liteon_common.so \
@@ -589,8 +634,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_liteon_snapshot_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_video.so:system/vendor/lib/libchromatix_imx386_liteon_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_video_hdr.so:system/vendor/lib/libchromatix_imx386_liteon_video_hdr.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_zsl_preview.so:system/vendor/lib/libchromatix_imx386_liteon_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_imx386_liteon_zsl_video.so:system/vendor/lib/libchromatix_imx386_liteon_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_4K_preview.so:system/vendor/lib/libchromatix_ov12870_sunny_4K_preview.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_4K_video.so:system/vendor/lib/libchromatix_ov12870_sunny_4K_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_common.so:system/vendor/lib/libchromatix_ov12870_sunny_common.so \
@@ -614,8 +657,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_snapshot_hdr.so:system/vendor/lib/libchromatix_ov12870_sunny_snapshot_hdr.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_video.so:system/vendor/lib/libchromatix_ov12870_sunny_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_video_hdr.so:system/vendor/lib/libchromatix_ov12870_sunny_video_hdr.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_zsl_preview.so:system/vendor/lib/libchromatix_ov12870_sunny_zsl_preview.so \
-    vendor/huawei/can/proprietary/vendor/lib/libchromatix_ov12870_sunny_zsl_video.so:system/vendor/lib/libchromatix_ov12870_sunny_zsl_video.so \
     vendor/huawei/can/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/huawei/can/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/huawei/can/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
@@ -810,7 +851,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/huawei/can/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/huawei/can/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
-    vendor/huawei/can/proprietary/lib64/libjson.so:system/lib64/libjson.so \
     vendor/huawei/can/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:system/vendor/lib64/hw/activity_recognition.msm8953.so \
     vendor/huawei/can/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/huawei/can/proprietary/vendor/lib64/hw/gatekeeper.msm8953.so:system/vendor/lib64/hw/gatekeeper.msm8953.so \
