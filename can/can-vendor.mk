@@ -302,10 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/huawei/can/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/huawei/can/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/huawei/can/proprietary/vendor/lib/libc2dcolorconvert.so:system/vendor/lib/libc2dcolorconvert.so \
-    vendor/huawei/can/proprietary/vendor/lib64/libc2dcolorconvert.so:system/vendor/lib64/libc2dcolorconvert.so \
     vendor/huawei/can/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/huawei/can/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/huawei/can/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/huawei/can/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/can/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -692,7 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
     vendor/huawei/can/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/huawei/can/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/huawei/can/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/huawei/can/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/can/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
