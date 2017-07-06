@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SENCE_CATEGORY NAME="PARAM_VALUE">
+    <PROJECT_GROUP NAME="CODEC_DSP">
+      <RANGE NAME="PARAM_RANGE" RANGE_VALUE="{5,9,0,0,600,1200}"/>
+    </PROJECT_GROUP>
+</SENCE_CATEGORY>
+
