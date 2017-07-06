@@ -151,4 +151,14 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO
+LOCAL_MODULE_OWNER := huawei
+LOCAL_SRC_FILES := proprietary/etc/qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_SUFFIX := .xml
+include $(BUILD_PREBUILT)
+
+
 endif
