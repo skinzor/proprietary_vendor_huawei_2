@@ -216,10 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/qtc800s.bin:system/etc/firmware/qtc800s.bin \
     vendor/huawei/can/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/huawei/can/proprietary/etc/firmware/venus_boe_fw.img:system/etc/firmware/venus_boe_fw.img \
-    vendor/huawei/can/proprietary/etc/flp.conf:system/etc/flp.conf \
-    vendor/huawei/can/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/huawei/can/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/huawei/can/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/huawei/can/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/huawei/can/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -238,8 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/huawei/can/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/huawei/can/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/huawei/can/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/huawei/can/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/huawei/can/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv.bin:system/etc/wifi/WCNSS_hw_wlan_nv.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_can_al00.bin \
@@ -255,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l02.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_l03.bin \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
-    vendor/huawei/can/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/huawei/can/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/huawei/can/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/huawei/can/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
