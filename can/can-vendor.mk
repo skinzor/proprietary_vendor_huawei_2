@@ -81,6 +81,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Hdmi_cal.acdb:system/etc/acdbdata/mlal010203/Hdmi_cal.acdb \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Headset_cal.acdb:system/etc/acdbdata/mlal010203/Headset_cal.acdb \
     vendor/huawei/can/proprietary/etc/acdbdata/mlal010203/Speaker_cal.acdb:system/etc/acdbdata/mlal010203/Speaker_cal.acdb \
+    vendor/huawei/can/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
     vendor/huawei/can/proprietary/etc/camera/dflash/calPara4Selection.txt:system/etc/camera/dflash/calPara4Selection.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_000.txt:system/etc/camera/dflash/calibration_000.txt \
     vendor/huawei/can/proprietary/etc/camera/dflash/calibration_001.txt:system/etc/camera/dflash/calibration_001.txt \
@@ -217,6 +218,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/firmware/qtc800s.cfg:system/etc/firmware/qtc800s.cfg \
     vendor/huawei/can/proprietary/etc/firmware/venus_boe_fw.img:system/etc/firmware/venus_boe_fw.img \
     vendor/huawei/can/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/huawei/can/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/huawei/can/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/huawei/can/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -225,8 +227,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/huawei/can/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/huawei/can/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/huawei/can/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/huawei/can/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/can/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/huawei/can/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/huawei/can/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/huawei/can/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/huawei/can/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
@@ -251,7 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin:system/etc/wifi/WCNSS_hw_wlan_nv_mla_tl00.bin \
     vendor/huawei/can/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/huawei/can/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
-    vendor/huawei/can/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/huawei/can/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/can/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/can/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
@@ -266,16 +269,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
     vendor/huawei/can/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
     vendor/huawei/can/proprietary/lib/libdmd.so:system/lib/libdmd.so \
-    vendor/huawei/can/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/huawei/can/proprietary/lib/libhdr.so:system/lib/libhdr.so \
     vendor/huawei/can/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
     vendor/huawei/can/proprietary/lib/libhuaweicust.so:system/lib/libhuaweicust.so \
     vendor/huawei/can/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
     vendor/huawei/can/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/huawei/can/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/huawei/can/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/huawei/can/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
+    vendor/huawei/can/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/huawei/can/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/huawei/can/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/huawei/can/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/huawei/can/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/huawei/can/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -294,20 +296,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/lib/libtrack.so:system/lib/libtrack.so \
     vendor/huawei/can/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/huawei/can/proprietary/lib64/hw/fingerprint.msm8953.so:system/lib64/hw/fingerprint.msm8953.so \
-    vendor/huawei/can/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/huawei/can/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/can/proprietary/lib64/libbtaddr.so:system/lib64/libbtaddr.so \
     vendor/huawei/can/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
     vendor/huawei/can/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
-    vendor/huawei/can/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/huawei/can/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
     vendor/huawei/can/proprietary/lib64/libhuaweicust.so:system/lib64/libhuaweicust.so \
     vendor/huawei/can/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
     vendor/huawei/can/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/huawei/can/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/huawei/can/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/huawei/can/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
+    vendor/huawei/can/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/huawei/can/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/huawei/can/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/huawei/can/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/can/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/huawei/can/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
@@ -1047,6 +1047,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
     vendor/huawei/can/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
     vendor/huawei/can/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
+    vendor/huawei/can/proprietary/lib/libnfc-nci-44-551.so:system/lib/libnfc-nci-44-551.so \
+    vendor/huawei/can/proprietary/lib/libnfc_nci_jni_44_551.so:system/lib/libnfc_nci_jni_44_551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc-nci-44-551.so:system/lib64/libnfc-nci-44-551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc_nci_jni_44_551.so:system/lib64/libnfc_nci_jni_44_551.so \
+    vendor/huawei/can/proprietary/lib64/hw/nfc_nci.pn55x.default.so:system/lib64/hw/nfc_nci.pn55x.default.so \
     vendor/huawei/can/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/huawei/can/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/huawei/can/proprietary/vendor/qcril.db:system/vendor/qcril.db
