@@ -57,7 +57,7 @@
     <HdrCompAjust>
     <hdrType0_underExposureAdjust>256</hdrType0_underExposureAdjust> 	<!-- Thre 1500 -->
     <hdrType0_overExposureAdjust>256</hdrType0_overExposureAdjust> 		<!-- Thre -1700 -->
-    <hdrType1_underExposureAdjust>58</hdrType1_underExposureAdjust> 	<!-- Thre 1330 -->
+    <hdrType1_underExposureAdjust>78</hdrType1_underExposureAdjust> 	<!-- Thre 1330 -->
     <hdrType1_overExposureAdjust>256</hdrType1_overExposureAdjust> 		<!-- Thre -1700 -->
     <hdrType2_underExposureAdjust>370</hdrType2_underExposureAdjust> 	<!-- Thre 1500 -->
     <hdrType2_overExposureAdjust>180</hdrType2_overExposureAdjust> 		<!-- Thre -1000 -->
