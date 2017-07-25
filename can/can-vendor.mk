@@ -928,7 +928,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/huawei/can/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/huawei/can/proprietary/vendor/lib64/sensors.nosensorhub.so:system/vendor/lib64/sensors.nosensorhub.so \
-    vendor/huawei/can/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so
+    vendor/huawei/can/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/huawei/can/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/huawei/can/proprietary/vendor/firmware/libpn551_fw.so:system/vendor/firmware/libpn551_fw.so \
+    vendor/huawei/can/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
+    vendor/huawei/can/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
+    vendor/huawei/can/proprietary/lib/libnfc-nci-45-551.so:system/lib/libnfc-nci-45-551.so \
+    vendor/huawei/can/proprietary/lib/libnfc_nci_jni_45_551.so:system/lib/libnfc_nci_jni_45_551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc-nci-45-551.so:system/lib64/libnfc-nci-45-551.so \
+    vendor/huawei/can/proprietary/lib64/libnfc_nci_jni_45_551.so:system/lib64/libnfc_nci_jni_45_551.so \
+    vendor/huawei/can/proprietary/lib64/hw/nfc_nci.pn54x_45_551.default.so:system/lib64/hw/nfc_nci.pn54x_45_551.default.so \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
