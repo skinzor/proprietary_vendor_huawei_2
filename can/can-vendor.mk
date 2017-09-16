@@ -788,6 +788,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_ov12870_sunny.so:system/vendor/lib/libmmcamera_ov12870_sunny.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_ov12870_sunny_middle.so:system/vendor/lib/libmmcamera_ov12870_sunny_middle.so \
+    vendor/huawei/can/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/huawei/can/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
