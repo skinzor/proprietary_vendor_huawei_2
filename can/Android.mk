@@ -87,7 +87,7 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
+LOCAL_MODULE := CABLService
 LOCAL_MODULE_OWNER := huawei
 LOCAL_SRC_FILES := proprietary/priv-app/CABLService/CABLService.apk
 LOCAL_CERTIFICATE := platform
