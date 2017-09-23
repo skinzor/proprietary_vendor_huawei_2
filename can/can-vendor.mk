@@ -328,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/huawei/can/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/huawei/can/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/huawei/can/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/huawei/can/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/huawei/can/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/huawei/can/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -1074,7 +1073,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     TimeService \
+    CABLService \
     CNEService \
+    colorservice \
     shutdownlistener \
     com.qualcomm.location \
     ims \
