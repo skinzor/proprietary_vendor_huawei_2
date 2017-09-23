@@ -229,6 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/can/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/huawei/can/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/huawei/can/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/huawei/can/proprietary/etc/qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml:system/etc/qdcm_calib_data_JDI_SD6FA1_5P0_1080P_VIDEO.xml \
     vendor/huawei/can/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/huawei/can/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/huawei/can/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
